@@ -1,0 +1,365 @@
+
+
+.bg-grey {
+    background: #f7f7f7;
+}
+#nav-bar {
+    text-align: center;
+}
+/*3 dòng là tối đa*/
+.text_truncate {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+#h-banner {
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    opacity: 1;
+}
+#h-banner h1 {
+    position: absolute;
+    top:6%;
+    left:35%;
+    color: white;
+}
+#h-banner span {
+    position: absolute;
+    bottom:-40%;
+    right:35%;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    opacity: 0.9;
+}
+.h-relative-avatar {
+    position: relative;
+}
+.avatar {
+    position: absolute;
+    bottom:-10%;
+    left: 45%;
+    border-radius: 50%;
+    border: white 5px solid;
+}
+
+
+
+.icon-user,.icon-doc-text-inv, .icon-mail-alt, .icon-star-1{
+    color: blue;
+}
+.item {
+    margin-left: 50px;
+}
+.item1 {
+    margin-top: -30px;
+    line-height: 0.5;
+}
+
+#about  .col-md {
+    border-right : 1px solid #cccccc;}
+#about  .col-md:last-child {
+    border-right : none;}
+
+
+
+#about {
+    background-color: #F5F5F5;
+}
+#about h1 {
+    font-size: 21px;
+}
+#about i {
+    margin-right : 10px;
+    color: #047aed;
+}
+.list-style, p {
+    list-style: none;
+    padding-left: 0;
+    font-size: 14px;
+}
+/* Phần thông tin */
+#information .h-col {
+    border: gray solid 1px;
+    padding: 20px;
+}
+#information .row {
+    gap: 10px;
+}
+#information .main-icon {
+    position: relative;
+    left: 40px;
+    color: blue;
+    font-size: 30px;
+}
+
+.hobby-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Phần chứng chỉ */
+/* Cho phông chữ nhỏ chút */
+#h-certificate .cert-item h6{
+    font-size: 12px;
+}
+#h-certificate .cert-item p{
+    font-size: 12px;
+}
+.cert-item .margin-0{
+    margin: 0;
+}
+#h-certificate .row {
+    background-color:#f7f7f7;
+}
+
+#h-certificate {
+    border: 0 12px;
+}
+.h-non-display {
+color:#f7f7f7 ;
+}
+
+/* Phần dự án */
+.name-project {
+    border-right: solid 1px #E2E2E2;
+}
+
+table, td {
+    border: #E2E2E2 1px solid;
+   /* border-collapse: collapse; */
+}
+
+td {
+    height: 50px;
+}
+tr {
+    border-bottom: #E2E2E2 1px solid!important;
+}
+
+
+
+}
+  tr:last-child {
+      border-bottom: none!important;
+  }
+  table {
+      border-bottom: none;
+  }
+#h-project .name-project {
+    height: 70px;
+    background-color: #A49EB1;
+    align-items: center; /* cách căn text ở  giữa theo chiều dọc */
+    display: flex;
+}
+.icon-project {
+    height: 60px;
+    background-color: #FFD18D;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    border: #E2E2E2 1px solid;
+}
+button {
+    padding:0px 2px;
+    border-bottom-left-radius: 35%!important;
+    border-top-left-radius: 35%!important;
+    border-top-right-radius: 35%!important;
+    border-bottom-right-radius: 35%!important;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+
+}
+#footer1 {
+    height: 80px;
+    background-color: #F7F7F7;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    border: #E2E2E2 1px
+    px
+    solid;
+    color: black;
+    background-color: #E2E2E2 ;
+}
+#footer1 i {
+    background-color: #047aed ;
+    color: white;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile */
+@media( max-width: 500px) {
+    .h-navbar .row{
+        flex-direction: column;
+    }
+    .avatar {
+        display: none;
+    }
+    .h-non-display {
+        display: none;
+    }
+
+    #h-certificate .h-border-1px {
+        border-bottom: #d6c08d solid 1px!important;
+    }
+    #h-certificate .col-md{
+        border-bottom: #d6c08d solid 1px!important;
+    }
+    #h-certificate .h-border-1px-md-lg {
+        border-bottom: none!important;
+
+    }
+    #h-certificate img {
+        max-width: 100%!important;
+        height: auto!important;
+    }
+    #h-certificate .cert-item h6 {
+        font-size: 24px!important;
+    }
+    #h-certificate .cert-item p {
+        font-size: 24px!important;
+    }
+    .my-sm-5 {
+        margin-top: 10px;
+    }
+    #about h1, #about  ul, #about p {
+        font-size: 24px!important;
+    }
+    .about-col2 i {
+      font-size: 30px;
+        margin: 0 20px;
+
+    }
+    #information .h-col span ,   #information .h-col ul li,#information .h-col p {
+        font-size: 24px!important;
+    }
+    .cert-item h4,  .cert-item h6, .cert-item p {
+        font-size: 24px;
+    }
+    #information .h-lg {
+        display: none;
+    }
+    #h-project table td , #h-project span {
+        font-size: 20px!important;
+    }
+    #h-footer span {
+        display: none;
+    }
+    #h-project .name-project {
+        background-color: white!important;
+        font-weight: bold;
+
+    }
+
+
+}
+
+
+@media( min-width: 768px) {
+    #information .flex-col {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    #information .flex-row {
+        display: flex;
+    }
+
+    #information .h-lg {
+        display: none;
+    }
+
+    .h-border-1px-md-lg {
+        border-top: solid 1px #d6c08d;
+        margin-top: 10px;
+    }
+
+    .cert-item img {
+        width: 300px;
+    }
+
+    #h-project {
+        font-size: 14px;
+    }
+
+    #h-project span {
+        font-size: 12px;
+    }
+
+    #h-project .noneborder1 {
+        width: 40%;
+    }
+
+    #information .h-col {
+        margin-left: 15px;
+
+    }
+    .h-border-1px {
+        border-right: #d6c08d solid 1px;
+    }
+
+}
+@media( min-width: 992px) {
+    #information .h-md div {/* them div sau #information .h-md để có ưu tiên cao hơn #information .flex-row: display flex */
+    display: none}
+
+
+
+    #information .flex-col {
+        display: flex;
+        flex-direction: column;
+         33.33%;
+    }
+    #information .flex-row {
+        display: flex;
+    }
+    #information .h-col {
+        margin-left: 15px;
+    }
+    .h-border-1px-md-lg {
+        border-top: 0;
+        padding-top: 10px;
+        margin-top: 10px;
+
+
+    }
+    .cert-item img {
+        width: 300px;
+
+    }
+    #h-project span {
+        font-size: 14px;
+    }
+
+}
+    /*
+    #information .h-md {  cùng hạng bậc với #information .flex-row {
+        display: flex; tuy nhiên code nào viết sau sẽ được ưu tiên hơn ;
+    }
+        display: none;
+    }
+} */
+
+
+
+
+
